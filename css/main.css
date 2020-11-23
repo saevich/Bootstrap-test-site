@@ -1,0 +1,74 @@
+/* Main page styles */
+body {
+    padding-left: 1%;
+    padding-right: 1%;
+    background-image: url(/img/logo.png);
+    background-size: 15px;
+    background-repeat: space space;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.margin-for-big-containers {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+}
+
+/* Header */
+.header_container {
+    padding-left: 11%;
+    padding-right: 11%;
+
+    background: rgb(240, 240, 240) !important;
+}
+
+.project-links_container {
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 2.5%;
+    background: rgb(242, 242, 242) !important;
+    display: inline-block;
+}
+
+.title {
+    background: rgb(242, 242, 242) !important;
+    display: inline-block;
+}
+
+.title_container {
+    display: block;
+}
+
+.links_container {
+    background: rgb(245, 245, 245) !important;
+    display: inline-block;
+}
+
+.project-links_link {
+    border-radius: .25rem !important;
+}
+
+/* Body */
+.body_container {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 98%;
+    margin-top: 2.5%;
+    background: rgb(240, 240, 240) !important;
+}
+
+.bootstrap-background {
+    background-image: url(/img/body_image.png);
+    background-repeat: space space;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.body_image {
+    display: block !important;
+    margin-right: auto;
+    margin-left: auto;
+    width: 15%;
+    height: 15%;
+}
